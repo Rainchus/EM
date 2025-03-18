@@ -1,2 +1,9 @@
 *.z64
 *.ok
+build/
+expected/
+nonmatchings/
+eltail.ld
+assets/
+asm/
+ctx.c

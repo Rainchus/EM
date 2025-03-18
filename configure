@@ -11,5 +11,5 @@ if [[ "$actual_hash" != "$expected_hash" ]]; then
     echo "Error: baserom.jp.z64 has an invalid SHA1 hash"
     exit 1
 fi
-python3 tools/splat/split.py eltail.jp.yaml
+python3 splat split eltail.jp.yaml
 python3 configure.py "$@"

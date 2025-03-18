@@ -1,6 +1,3 @@
 D_8008A184 = 0x8008A184;
-
-
 gAllowBattles = 0x800842E8;
-
 gBattleState = 0x8008BE52;
